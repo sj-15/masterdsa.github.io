@@ -1,3 +1,8 @@
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
 class AdComponent extends HTMLElement {
     connectedCallback() {
       const isMobile = matchMedia('(max-width: 500px)').matches;    
