@@ -600,6 +600,140 @@
     <br>
     <br>
 
+    
+      <p class=" questions ">
+        Given a string s of '(' , ')' and lowercase English characters. <br>
+
+          Your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string. <br>
+
+          Formally, a parentheses string is valid if and only if:
+        <br>
+
+          1. It is the empty string, contains only lowercase characters, or
+          <br>
+          2. It can be written as AB (A concatenated with B), where A and B are valid strings, or
+          <br>
+          3. It can be written as (A), where A is a valid string.
+        <br>
+        <br>
+        <strong>
+          Easy
+        </strong>
+        <span class=" Topic ">
+          Stack
+        </span>
+      </p>
+      <div class=" example ">
+        <b>Example:</b>
+        <br>
+        <b>INPUT:</b> 
+        <br>
+        a)b(c)d
+        <br>
+        <b>OUTPUT:</b> 
+        <br>
+        ab(c)d
+      </div>
+      <br>
+      <a href=" https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/ " target=" _blank " class=" Question_links ">
+        Problem
+      </a>
+      &nbsp;
+      <a href=" " target=" _blank " class=" solution ">
+        Solution
+      </a>
+      <br>
+      <br>
+
+
+       
+        <p class=" questions ">
+          The school cafeteria offers circular and square sandwiches at lunch break, referred to by numbers 0 and 1 respectively. All students stand in a queue. Each student either prefers square or circular sandwiches.
+          <br>
+          The number of sandwiches in the cafeteria is equal to the number of students. The sandwiches are placed in a stack. At each step:
+          <br>
+          If the student at the front of the queue prefers the sandwich on the top of the stack, they will take it and leave the queue.
+          Otherwise, they will leave it and go to the queue's end.
+          This continues until none of the queue students want to take the top sandwich and are thus unable to eat.
+          <br>
+          You are given two integer arrays students and sandwiches where sandwiches[i] is the type of the i​​​​​​th sandwich in the stack (i = 0 is the top of the stack) and students[j] is the preference of the j​​​​​​th student in the initial queue (j = 0 is the front of the queue). Return the number of students that are unable to eat.
+          <br>
+          <br>
+          <strong>
+            Easy
+          </strong>
+          <span class=" Topic ">
+            Queue
+          </span>
+        </p>
+        <div class=" example ">
+          <b>Example:</b>
+          <br>
+          <b>INPUT:</b> 
+          <br>
+          students = [1,1,1,0,0,1]
+          <br>
+          sandwiches = [1,0,0,0,1,1]
+          <br>
+          <br>
+          <b>OUTPUT:</b> 
+          <br>
+          3
+        </div>
+        <br>
+        <a href="https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/ " target=" _blank " class=" Question_links ">
+          Problem
+        </a>
+        &nbsp;
+        <a href=" " target=" _blank " class=" solution ">
+          Solution
+        </a>
+        <br>
+        <br>
+
+        <p class=" questions ">
+          There are n people in a line queuing to buy tickets, where the 0th person is at the front of the line and the (n - 1)th person is at the back of the line.
+          <br>
+
+          You are given a 0-indexed integer array tickets of length n where the number of tickets that the ith person would like to buy is tickets[i].
+          <br>
+
+        Each person takes exactly 1 second to buy a ticket. A person can only buy 1 ticket at a time and has to go back to the end of the line (which happens instantaneously) in order to buy more tickets. If a person does not have any tickets left to buy, the person will leave the line.
+        <br>
+
+        Return the time taken for the person at position k (0-indexed) to finish buying tickets.
+          <br>
+          <br>
+          <strong>
+            Easy
+          </strong>
+          <span class=" Topic ">
+            Queue
+          </span>
+        </p>
+        <div class=" example ">
+          <b>Example:</b>
+          <br>
+          <b>INPUT:</b> 
+          <br>
+          2 3 2
+          <br>
+          k = 2
+          <br>
+          <b>OUTPUT:</b> 
+          <br>
+          6
+        </div>
+        <br>
+        <a href="https://leetcode.com/problems/time-needed-to-buy-tickets/ " target=" _blank " class=" Question_links ">
+          Problem
+        </a>
+        &nbsp;
+        <a href=" " target=" _blank " class=" solution ">
+          Solution
+        </a>
+        <br>
+        <br>
 <!-- END OF EASY -->
 <!-- Medium -->
         <p class=" questions ">
